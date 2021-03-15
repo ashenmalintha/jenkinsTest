@@ -1,0 +1,122 @@
+firewall-cmd --permit --add -port=80/tcp
+firewall-cmd --permit --add -service=tcp
+
+firewall-cmd  --add -port=80/tcp
+firewall-cmd  --add -service=tcp
+
+==============
+
+service named stop
+systemctl stop named
+
+
+==============
+netstat
+ifconfig
+dig (ip address) (opiton) - trroubleshooting or verify DNS related issues or things
+free > for show free memory info
+
+netstat -ap - show all open ports
+
+
+
+=============
+ps 
+ps -a
+ps aux
+
+CPU utilization ==========
+top
+
+
+Find Command ====
+Find 
+find | grep
+
+================
+zip
+unzip 
+
+gzip ash 
+gunzipash
+
+tar xvf ( file name)
+==========
+
+
+domain is logical group of domain
+==========
+
+main server and protocolls
+
+pop3	imap	http - incomming mail handler
+
+snmp - outgoing mail handler
+
+===============
+
+wget (link address of downliading file)
+
+==========
+
+cp s d
+mv s d
+
+============
+
+package installing==
+yum install (name of the package)
+
+============
+ls | head or tail
+ls -l derectroty
+
+find location ==========
+location (file name)
+
+==========
+
+change group====
+
+chgrp (new grp) (file 0r dir)
+
+change owner====
+
+chown (new owner) (file 0r dir)
+
+
+===========================================
+
+passwd option user
+
+=========================
+export abc = "hfbdkjfns"
+echo "command" >> ./bashrc
+
+=================
+
+
+kill -9 ID
+killall -KILL (service type)
+
+=====================
+
+sudo apt install / remove (name of service)
+
+=================
+
+user Creation---
+
+useradd name
+userdel name
+useradd -u 1005 ash
+useradd -g (grp name) (user name)
+
+group Creation---
+
+groupadd (name of new group)
+groupadd -g ID (name of new group)
+groupdel (name of group)
+groupmod -n (new grp) (old grp)
+
+getend grp_name - show information of grp
